@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color:linear-gr; */
+    background-image: linear-gradient( #aaff00,#ff3300 );
+    height: 100px;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+li{
+    display: inline-block;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+}

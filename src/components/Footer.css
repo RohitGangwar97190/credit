@@ -1,0 +1,14 @@
+
+
+.cont{
+   height: 200px;
+   width:100%;
+   border: 2px solid red;
+   margin: 10px;
+   background-image: linear-gradient(to right ,#ff8080,#66b3ff);
+   flex-wrap: wrap;
+}
+.head{
+   color: red;
+
+}

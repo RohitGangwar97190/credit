@@ -1,0 +1,116 @@
+footer{
+    width: 100%;
+    /* display: flex; */
+    padding: 2rem 6rem;
+    background: rgb(89,29,229);
+background: linear-gradient(93deg, rgba(89,29,229,0.7876400560224089) 0%, rgba(100,51,135,1) 0%, rgba(102,89,255,1) 100%);
+color: white;
+
+}
+
+.upper{
+    display: flex;
+}
+.upper div{
+    
+    width: 20rem;
+    text-align: center;
+    height: 20vh;
+    display: block;
+}
+
+
+.lower{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.two a{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.three i{
+    margin: 3px;
+}
+
+
+
+
+
+
+
+
+.newsletter{
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.newsletter label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.newsletter input{
+    height: 40px;
+    border-radius: 10px;
+    background: rgb(89,29,229);
+    background: linear-gradient(93deg, rgba(89,29,229,0.7876400560224089) 0%, rgba(100,51,135,1) 0%, rgba(102,89,255,1) 100%);
+    color: white;
+    text-align: center;
+}
+.newsletter input::placeholder{
+    color: white;
+}
+
+.newsletter p{
+    margin-top: 10px;
+}
+
+.newsletter input span i {
+    color: black;
+}
+
+
+
+.newsletter span button{
+    padding: 2PX;
+    width: 35PX;
+    height: 35PX;
+    cursor: pointer;
+    
+
+}
+
+
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
